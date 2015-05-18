@@ -1,3 +1,6 @@
+process.on('uncaughtException', function(error) {
+  console.log("uncaught");
+});
 import { server, application } from './services/server';
 
 // this doesn't exist

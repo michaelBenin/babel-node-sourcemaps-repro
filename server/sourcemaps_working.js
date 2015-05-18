@@ -1,3 +1,6 @@
+process.on('uncaughtException', function(error) {
+  console.log("uncaught");
+});
 require('source-map-support').install();
 import { server, application } from './services/server';
 
