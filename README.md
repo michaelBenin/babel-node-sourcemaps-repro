@@ -17,5 +17,5 @@ See the stack trace here:
 
 Compare to the stack trace here:
 
-    babel server --source-maps inline --out-dir build; node build;
+    babel server --source-maps inline --out-dir build; node build/sourcemaps_working;
 
